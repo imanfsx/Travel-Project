@@ -1,0 +1,250 @@
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #787584;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-col-with-first-col-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-3-col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.img-responsive {
+  width: 100%;
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.button {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.instagram-embed {
+  margin: 30px 0;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+section.secondary {
+  background-color: #f8f8f8;
+}
+header h1 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 30px 0;
+}
+header h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: white;
+  text-decoration: none;
+  color: #272044;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+}
+
+main {
+  background-color: white;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  color: #272044;
+  margin: 0;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #272044;
+  opacity: 0.7;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(../images/sydneyhero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 200px 0;
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.8),
+      rgba(39, 32, 68, 0.8)
+    ),
+    url(../images/sydney-footer2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.9;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+@media (max-width: 960px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
+}
